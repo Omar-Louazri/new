@@ -1,188 +1,324 @@
 {
     "categories": [
-        {
+            {
             "name": "Cycle Ingénieur",
             "filliers":[
-                {
+                    {
                     "name": "GBM",
-                    "element_module":[
+                    "session":[
                         {
-                            "name": "EModule 1",
-                            "videos":[
+                            "name": "S1",
+                            "element_module":[
                                 {
-                                    "name": "Video 1",
-                                    "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+                                    "name": "EModule 1",
+                                    "videos":[
+                                        {
+                                            "name": "Video 1",
+                                            "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+                                        }
+                                    ]
                                 },
                                 {
-                                    "name": "Video 2",
-                                    "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+                                    "name": "EModule 2",
+                                    "videos":[
+                                        {
+                                            "name": "Video 1",
+                                            "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+                                        }
+                                    ]
                                 }
                             ]
                         },
                         {
-                            "name": "EModule 2",
-                            "videos":[
-                                {
-                                    "name": "Video 1",
-                                    "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
-                                },
-                                {
-                                    "name": "Video 2",
-                                    "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
-                                }
-                            ]
+                            "name": "S2",
+                            "element_module":[
+                            {
+                                "name": "s2 EModule 1",
+                                "videos":[
+                                    {
+                                        "name": "Video 1",
+                                        "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "s2 EModule 2",
+                                "videos":[
+                                    {
+                                        "name": "Video 1",
+                                        "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+                                    }
+                                ]
+                            }
+                        ]
                         }
                     ]
-                    
-                },
-                {
-                    "name": "I2A",
-                    "element_module":[
+            
+                    },
+                    {
+                    "name": "GMC",
+                    "session":[
                         {
-                            "name": "EModule 1",
-                            "videos":[
+                            "name": "S1",
+                            "element_module":[
                                 {
-                                    "name": "Video 1",
-                                    "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+                                    "name": "EModule 1",
+                                    "videos":[
+                                        {
+                                            "name": "Video 1",
+                                            "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+                                        }
+                                    ]
                                 },
                                 {
-                                    "name": "Video 2",
-                                    "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+                                    "name": "EModule 2",
+                                    "videos":[
+                                        {
+                                            "name": "Video 1",
+                                            "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+                                        }
+                                    ]
                                 }
                             ]
                         },
                         {
-                            "name": "EModule 2",
-                            "videos":[
-                                {
-                                    "name": "Video 1",
-                                    "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
-                                },
-                                {
-                                    "name": "Video 2",
-                                    "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
-                                }
-                            ]
-                        },
-                        {
-                            "name": "EModule 3",
-                            "videos":[
-                                {
-                                    "name": "Video 1",
-                                    "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
-                                },
-                                {
-                                    "name": "Video 2",
-                                    "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
-                                }
-                            ]
+                            "name": "S2",
+                            "element_module":[
+                            {
+                                "name": "s2 EModule 1",
+                                "videos":[
+                                    {
+                                        "name": "Video 1",
+                                        "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "s2 EModule 2",
+                                "videos":[
+                                    {
+                                        "name": "Video 1",
+                                        "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+                                    }
+                                ]
+                            }
+                        ]
                         }
                     ]
-                    
-                },
-                {
-                    "name": "INDIA",
-                    "element_module":[
-                        {
-                            "name": "C++",
-                            "videos":[
-                                {
-                                    "name": "Video 1",
-                                    "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
-                                },
-                                {
-                                    "name": "Video 2",
-                                    "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Structure De Données",
-                            "videos":[
-                                {
-                                    "name": "Video 1",
-                                    "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
-                                },
-                                {
-                                    "name": "Video 2",
-                                    "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
-                                }
-                            ]
-                        }
-                    ]
-                    
-                },
-                {
-                    "name": "GM",
-                    "element_module":[
-                        {
-                            "name": "EModule 1",
-                            "videos":[
-                                {
-                                    "name": "Video 1",
-                                    "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
-                                },
-                                {
-                                    "name": "Video 2",
-                                    "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
-                                }
-                            ]
-                        },
-                        {
-                            "name": "EModule 2",
-                            "videos":[
-                                {
-                                    "name": "Video 1",
-                                    "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
-                                },
-                                {
-                                    "name": "Video 2",
-                                    "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
-                                }
-                            ]
-                        }
-                    ]
-                    
-                }
-            ]
-        },
-        {
+            
+                    }
+                ]
+            },
+            {
             "name": "Cycle Préparatoire",
             "filliers":[
-                {
-                    "name": "API 1",
-                    "element_module":[
+                    {
+                    "name": "MP",
+                    "session":[
                         {
-                            "name": "EModule 1",
-                            "videos":[
+                            "name": "S1",
+                            "element_module":[
                                 {
-                                    "name": "Video 1",
-                                    "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+                                    "name": "EModule 1",
+                                    "videos":[
+                                        {
+                                            "name": "Video 1",
+                                            "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+                                        }
+                                    ]
                                 },
                                 {
-                                    "name": "Video 2",
-                                    "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+                                    "name": "EModule 2",
+                                    "videos":[
+                                        {
+                                            "name": "Video 1",
+                                            "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+                                        }
+                                    ]
                                 }
                             ]
                         },
                         {
-                            "name": "EModule 2",
-                            "videos":[
-                                {
-                                    "name": "Video 1",
-                                    "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
-                                },
-                                {
-                                    "name": "Video 2",
-                                    "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
-                                }
-                            ]
+                            "name": "S2",
+                            "element_module":[
+                            {
+                                "name": "s2 EModule 1",
+                                "videos":[
+                                    {
+                                        "name": "Video 1",
+                                        "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "s2 EModule 2",
+                                "videos":[
+                                    {
+                                        "name": "Video 1",
+                                        "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+                                    }
+                                ]
+                            }
+                        ]
                         }
                     ]
+            
+                    },
+                    {
+                    "name": "PC",
+                    "session":[
+                        {
+                            "name": "S1",
+                            "element_module":[
+                                {
+                                    "name": "EModule 1",
+                                    "videos":[
+                                        {
+                                            "name": "Video 1",
+                                            "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "EModule 2",
+                                    "videos":[
+                                        {
+                                            "name": "Video 1",
+                                            "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "S2",
+                            "element_module":[
+                            {
+                                "name": "s2 EModule 1",
+                                "videos":[
+                                    {
+                                        "name": "Video 1",
+                                        "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+                                    }
+                                ]
+                            }
+                        ]
                     
-                }
+                        }
+                    ]
+                    }
+                ]
+            },
+            {
+            "name": "Cycle Master",
+            "filliers":[
+                    {
+                    "name": "Génie Logiciel",
+                    "session":[
+                        {
+                            "name": "S1",
+                            "element_module":[
+                                {
+                                    "name": "EModule 1",
+                                    "videos":[
+                                        {
+                                            "name": "Video 1",
+                                            "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "EModule 2",
+                                    "videos":[
+                                        {
+                                            "name": "Video 1",
+                                            "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "S2",
+                            "element_module":[
+                            {
+                                "name": "s2 EModule 1",
+                                "videos":[
+                                    {
+                                        "name": "Video 1",
+                                        "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "s2 EModule 2",
+                                "videos":[
+                                    {
+                                        "name": "Video 1",
+                                        "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+                                    }
+                                ]
+                            }
+                        ]
+                        }
+                    ]
+            
+                    },
+                    {
+                    "name": "Génie Informatique",
+                    "session":[
+                        {
+                            "name": "S1",
+                            "element_module":[
+                                {
+                                    "name": "EModule 1",
+                                    "videos":[
+                                        {
+                                            "name": "Video 1",
+                                            "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "EModule 2",
+                                    "videos":[
+                                        {
+                                            "name": "Video 1",
+                                            "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "S2",
+                            "element_module":[
+                                {
+                                    "name": "s2 EModule 1",
+                                    "videos":[
+                                        {
+                                            "name": "Video 1",
+                                            "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+                                        },
+                                        {
+                                            "name": "Video 2",
+                                            "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+                                        },
+                                        {
+                                            "name": "Video 3",
+                                            "url": "https://www.youtube.com/watch?v=JGwWNGJdvx8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        
+                        }
+                    ]
+                    }
             ]
         }
+                                    
+
     ]
 
 }

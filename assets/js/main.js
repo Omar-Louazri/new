@@ -1,7 +1,7 @@
 // custom varibles :
 let canvas = document.getElementById('content');
 let nav = document.getElementById('nav-list');
-let url = 'https://gist.githubusercontent.com/Omar-Louazri/dc32933b68bef3990a65b7a0f31675a6/raw/a29f6eb9ea8421c590f82d5f67fd3d83a399dc90/lasse9JSON';
+let url = 'https://gist.githubusercontent.com/Omar-Louazri/dc32933b68bef3990a65b7a0f31675a6/raw/5ded72657ec780fbc74882c056043844a8cb57ca/lasse9JSON';
 function throw_error(error) {
     console.error(error);
     canvas.style.display = 'flex';
@@ -43,6 +43,7 @@ function throw_filliers_page(filliers) {
             
             let fillier_name = e.target.innerHTML.trim();
             let fillier = get_fillier(filliers, fillier_name);
+
             throw_video_page(fillier);
 
         
@@ -50,32 +51,58 @@ function throw_filliers_page(filliers) {
     }
 }
 function throw_video_page(fillier) {
+    canvas.style.display = 'block';
+
     canvas.style.marginTop = '30px';
     canvas.style.gap = '2em';
 
-    canvas.innerHTML = `
-    <h1> filliere choisi : ${fillier.name}</h1>
-    <br> <br> <br>
+    let html = `
+        <h1 class="text-center">Filliere choisi : ${fillier.name}</h1>
+        <br><br>
+        <main class="d-flex justify-content-center flex-wrap w-100">
     `;
-    console.log(fillier.element_module);
-    
-    for (let i = 0; i < fillier.element_module.length; i++) {
 
-        showElementByElement(fillier.element_module[i], canvas);
-
-        /* let video = fillier[i].videos;
-        let video_html = `
+    for (let i = 0; i < fillier.session.length; i++) {
+        let session = fillier.session[i];
+        html += `
             <div class="card" style="width: 500px;">
-                <iframe width="500" height="345" src="${video.url}" frameborder="0" allowfullscreen>
-                </iframe>
                 <div class="card-body">
-                    <h5 class="card-title">${fillier.name} - ${video.name}</h5>
-                        <a href="${video.url}" target="_blank" class="btn btn-primary">Regarder a youtube</a>
+                    <a href="#" class="btn btn-primary d-block session_class_listener">${session.name}</a>
                 </div>  
             </div>
         `;
-        canvas.innerHTML += video_html; */
     }
+
+    html += `
+        </main>
+        <section id="main-content"></section>
+    `;
+
+    // Update the canvas content only once
+    canvas.innerHTML = html;
+
+   track_session_listener(fillier);
+}
+function track_session_listener(fillier) {  
+    let canvas2 = document.getElementById('main-content');
+    let session_class_listener = document.querySelectorAll('.session_class_listener');
+    for (let i = 0; i < session_class_listener.length; i++) {
+        session_class_listener[i].addEventListener('click', (e) => {
+            console.log("clickeeeed");
+            canvas2.innerHTML = '';
+            afficher_session(fillier.session[i].element_module);
+        });
+    }
+}
+function afficher_session(session) {
+
+    let canvas2 = document.getElementById('main-content');
+ // VARIABLE GLOB : fillier.session[i].element_module
+    for (let i = 0; i < session.length; i++) {
+        showElementByElement(session[i], canvas2);
+
+    }
+
 }
 function getYouTubeID(url) {
     const regex = /(?:https?:\/\/)?(?:www\.)?youtu(?:\.be|be\.com)\/(?:watch\?v=|embed\/|v\/)?([\w-]{11})/;
@@ -89,7 +116,6 @@ function showElementByElement(element, old_canvas) {
     <div class="container">
         <h1 class="text-center">${element_name}</h1>
     </div>  
-    <br>
     `;
 
     old_canvas.innerHTML += header;
