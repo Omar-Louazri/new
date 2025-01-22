@@ -1,6 +1,7 @@
+// custom varibles :
 let canvas = document.getElementById('content');
 let nav = document.getElementById('nav-list');
-
+let url = 'https://gist.githubusercontent.com/Omar-Louazri/dc32933b68bef3990a65b7a0f31675a6/raw/a29f6eb9ea8421c590f82d5f67fd3d83a399dc90/lasse9JSON';
 function throw_error(error) {
     console.error(error);
     canvas.style.display = 'flex';
@@ -143,7 +144,7 @@ function return_categories_holder(data_holder, category_name) {
 }
 
 const xhr = new XMLHttpRequest();
-xhr.open('GET', 'https://gist.githubusercontent.com/Omar-Louazri/dc32933b68bef3990a65b7a0f31675a6/raw/2aaa95c894e1aad349984d55e60355ef47a4d506/lasse9JSON', true);
+xhr.open('GET', url, true);
 xhr.onload = function () {
   if (xhr.status === 200) {
     const data_holder = JSON.parse(xhr.responseText);
